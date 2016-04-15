@@ -46,30 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormGestionEquipe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormGestionEquipe.Designer.cs">
-      <DependentUpon>FormGestionEquipe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormGestionFacture.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormGestionFacture.designer.cs">
-      <DependentUpon>FormGestionFacture.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormGestionPartie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormGestionPartie.Designer.cs">
-      <DependentUpon>FormGestionPartie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormGestionTournois.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormGestionTournois.Designer.cs">
-      <DependentUpon>FormGestionTournois.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,18 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormGestionEquipe.resx">
-      <DependentUpon>FormGestionEquipe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGestionFacture.resx">
-      <DependentUpon>FormGestionFacture.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGestionPartie.resx">
-      <DependentUpon>FormGestionPartie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGestionTournois.resx">
-      <DependentUpon>FormGestionTournois.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
