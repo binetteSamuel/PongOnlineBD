@@ -87,6 +87,12 @@
     <Compile Include="FormGestionTournois.Designer.cs">
       <DependentUpon>FormGestionTournois.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHistoriquePartie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistoriquePartie.Designer.cs">
+      <DependentUpon>FormHistoriquePartie.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     <EmbeddedResource Include="FormGestionTournois.resx">
       <DependentUpon>FormGestionTournois.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHistoriquePartie.resx">
+      <DependentUpon>FormHistoriquePartie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -141,6 +151,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bowser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outilesinfo17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sasa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

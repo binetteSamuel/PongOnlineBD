@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace InterfacesGraphiques
 {
-    public partial class FormGestionJoueur : Form
+    public partial class FormGestionTournois : Form
     {
-        public FormGestionJoueur()
+        public FormGestionTournois()
         {
             InitializeComponent();
         }
