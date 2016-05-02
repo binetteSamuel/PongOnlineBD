@@ -27,7 +27,7 @@ namespace InterfacesGraphiques.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("server=127.0.0.1;user id=root;database=pongdev;allowuservariables=True;persistsec" +
-            "urityinfo=True")]
+            "urityinfo=True;password=pong1234")]
         public string pongdevConnectionString {
             get {
                 return ((string)(this["pongdevConnectionString"]));
