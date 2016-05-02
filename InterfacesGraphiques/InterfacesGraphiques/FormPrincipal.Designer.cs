@@ -33,6 +33,7 @@
             this.buttonGestionParties = new System.Windows.Forms.Button();
             this.buttonGestionTournois = new System.Windows.Forms.Button();
             this.buttonGestionFacture = new System.Windows.Forms.Button();
+            this.buttonClient = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonGestionEquipe
@@ -85,11 +86,22 @@
             this.buttonGestionFacture.UseVisualStyleBackColor = true;
             this.buttonGestionFacture.Click += new System.EventHandler(this.buttonGestionFacture_Click);
             // 
+            // buttonClient
+            // 
+            this.buttonClient.Location = new System.Drawing.Point(29, 158);
+            this.buttonClient.Name = "buttonClient";
+            this.buttonClient.Size = new System.Drawing.Size(152, 23);
+            this.buttonClient.TabIndex = 1;
+            this.buttonClient.Text = "Client";
+            this.buttonClient.UseVisualStyleBackColor = true;
+            this.buttonClient.Click += new System.EventHandler(this.buttonClient_Click);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(205, 271);
+            this.Controls.Add(this.buttonClient);
             this.Controls.Add(this.buttonJoueur);
             this.Controls.Add(this.buttonGestionFacture);
             this.Controls.Add(this.buttonGestionTournois);
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button buttonGestionParties;
         private System.Windows.Forms.Button buttonGestionTournois;
         private System.Windows.Forms.Button buttonGestionFacture;
+        private System.Windows.Forms.Button buttonClient;
     }
 }
 

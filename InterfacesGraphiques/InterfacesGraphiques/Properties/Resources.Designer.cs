@@ -63,6 +63,16 @@ namespace InterfacesGraphiques.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bannierePong {
+            get {
+                object obj = ResourceManager.GetObject("bannierePong", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bowser {
             get {
                 object obj = ResourceManager.GetObject("Bowser", resourceCulture);
